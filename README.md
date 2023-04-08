@@ -6,8 +6,8 @@
 Dataset "VisibilityArtifacts" consists of a partial combination of images from the data sets:
 1. [Woodscape](https://woodscape.valeo.com/) ("Soiling Detection" sample), radial distortion has been eliminated for this set and the images have been corrected;
 2. [DrivingStereo](https://drivingstereo-dataset.github.io/) ("Different weathers" sample);
-3. [TapmerDetection](https://www.researchgate.net/publication/329463231_Visibility_Loss_Detection_for_Video_Camera_Using_Deep_Convolutional_Neural_Networks_Volume_1).
-4. [ACDC](https://acdc.vision.ee.ethz.ch/);
+3. [TapmerDetection](https://www.researchgate.net/publication/329463231_Visibility_Loss_Detection_for_Video_Camera_Using_Deep_Convolutional_Neural_Networks_Volume_1);
+4. [ACDC](https://acdc.vision.ee.ethz.ch/).
 
 In order to balance the number of images per class, data augmentation was performed using the [imgaug](https://github.com/aleju/imgaug) tool, from thoseimages in which there were no visibility artifacts. As a result, a balanced "VisibilityArtifacts" dataset was formed, including 22311 images, divided into 7 categories, it's description is given in Table 2, examples of images are shown in Fig. 2 in the article.
 
