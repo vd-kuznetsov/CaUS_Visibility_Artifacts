@@ -22,7 +22,7 @@ Links to the dataset:
 1. Classification: [part 1](https://drive.google.com/drive/folders/1AxqLHFCjtoDiJjD0lweiOzVuTDZgla3h?usp=share_link), [part 2](https://drive.google.com/drive/folders/15z3pimTCFH9ywO9oNgpGC6Ff_04Z4O_z?usp=share_link);
 2. Segmentation: [part 3](https://drive.google.com/drive/folders/1Sls5GpqtiyXfC0BsfL3O6GNzAUcVbKfH?usp=share_link).
 
-For comfortable data processing, use the code from the "Upload Data" and "Data preparation" sections of the notebook "ENG/Training Classifiers.ipynb".
+For comfortable data processing, use the code from the "Loading data and splitting it" section of the notebook "Training Classifiers.ipynb".
 ## Citation
 
 ```
